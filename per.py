@@ -21,8 +21,8 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                      "This might take a few minutes.")
 
     # Login and scrape
-    username = "ruksha.roy.5891"
-    password = "Mima#20"
+    username = "yourusername"
+    password = "yourpassword"
     driver = login_to_instagram(username, password)
 
     if driver:

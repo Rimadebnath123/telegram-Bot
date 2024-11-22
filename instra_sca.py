@@ -92,8 +92,8 @@ def scrape_profiles(driver, query):
     
 # Example usage
 if __name__ == "__main__":
-    username = "ruksha.roy.5891"
-    password = "Mima#20"
+    username = "yourusrname"
+    password = "yourpassword"
 
     driver = login_to_instagram(username, password)
     if driver:
